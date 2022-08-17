@@ -1,0 +1,51 @@
+// Admin LTE CSS
+@import "~admin-lte/dist/css/adminlte.min.css";
+
+// Font Awesome Css
+@import "~admin-lte/plugins/fontawesome-free/css/all.min.css";
+
+// SweetAlert2
+@import "~admin-lte/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css";
+
+// Pace Progress
+@import "~admin-lte/plugins/pace-progress/themes/red/pace-theme-minimal.css";
+
+// Select2
+@import "~admin-lte/plugins/select2/css/select2.min.css";
+
+@import "~admin-lte/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css";
+
+// iCheck Bootstrap
+@import "~admin-lte/plugins/icheck-bootstrap/icheck-bootstrap.min.css";
+
+// Bootstrap Switch
+@import "~admin-lte/plugins/bootstrap-switch/css/bootstrap3/bootstrap-switch.min.css";
+
+@font-face {
+    font-family: "Pyidaungsu";
+    src: url("/fonts/pyidaungsu/Pyidaungsu.eot");
+    src: url("/fonts/pyidaungsu/Pyidaungsu.eot") format("embedded-opentype"),
+        url("/fonts/pyidaungsu/Pyidaungsu.woff2") format("woff2"),
+        url("/fonts/pyidaungsu/Pyidaungsu.woff") format("woff"),
+        url("/fonts/pyidaungsu/Pyidaungsu.ttf") format("truetype"),
+        url("/fonts/pyidaungsu/Pyidaungsu.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif, Pyidaungsu;
+}
+
+.cover-image {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ccc;
+}
+
+.image {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ccc;
+}
